@@ -37,9 +37,9 @@ Untuk submission, saya menyertakan dua versi kode:
 - Versi asli (MySQL) → kode yang benar-benar saya jalankan.
 - Versi konversi (BigQuery) → kode yang sudah saya adaptasi dengan bantuan AI agar sesuai dengan sintaks BigQuery.
 
-## Branchs
+## Struktur Branch
 
 ### mysql_version
-Berisi seluruh query MySQL asli, mulai dari pembuatan tabel (CREATE TABLE), import CSV (LOAD DATA INFILE), hingga pembuatan tabel analisa (kf_analisa) lengkap dengan perhitungan nett_sales dan nett_profit.
+Berisi semua query SQL asli untuk MySQL, termasuk pembuatan tabel, pemuatan data dari CSV, dan pembuatan tabel analisis.
 ### bigquery_version
-Berisi versi query yang sudah dikonversi ke sintaks BigQuery. Fungsinya sama seperti branch MySQL, namun disesuaikan agar bisa dijalankan di BigQuery.
+Berisi versi query yang telah dikonversi ke sintaks BigQuery, disesuaikan dengan kebutuhan platform tersebut.
