@@ -1,6 +1,7 @@
 # Kimia Farma Data Analysis (2020–2023)
 
 Proyek ini berisi query SQL untuk menganalisis performa Kimia Farma dari tahun 2020–2023.
+Proyek ini adalah final task dari Project-Based Internship Kimia Farma x Rakamin Academy - Big Data Analytics.
 Analisis dilakukan dengan membuat tabel transaksi, produk, kantor cabang, dan inventory, kemudian digabungkan dalam tabel analisa untuk menghitung metrik bisnis seperti nett sales, nett profit, dan gross profit margin.
 
 ## Struktur Proyek
@@ -35,3 +36,10 @@ Alasan penggunaan MySQL:
 Untuk submission, saya menyertakan dua versi kode:
 - Versi asli (MySQL) → kode yang benar-benar saya jalankan.
 - Versi konversi (BigQuery) → kode yang sudah saya adaptasi dengan bantuan AI agar sesuai dengan sintaks BigQuery.
+
+## Branchs
+
+### mysql_version
+Berisi seluruh query MySQL asli, mulai dari pembuatan tabel (CREATE TABLE), import CSV (LOAD DATA INFILE), hingga pembuatan tabel analisa (kf_analisa) lengkap dengan perhitungan nett_sales dan nett_profit.
+### bigquery_version
+Berisi versi query yang sudah dikonversi ke sintaks BigQuery. Fungsinya sama seperti branch MySQL, namun disesuaikan agar bisa dijalankan di BigQuery.
